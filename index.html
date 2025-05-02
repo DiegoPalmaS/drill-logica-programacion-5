@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica 5</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="tittle">Guess the number!</h1>
+    </header>
+    <main>
+        <div class="label">
+            <p class="description">Try to guess the number between 1 and 100</p>
+        </div>
+        <div class="input">
+            <input style="width: 213px;" type="number" id="guessInput" min="1" max="100" placeholder="Enter your guess" required>
+            <button onclick="main()" id="button" class="btn btn-1">GUESS</button>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+    </main>
+
+
+    <script src="./assets/JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
